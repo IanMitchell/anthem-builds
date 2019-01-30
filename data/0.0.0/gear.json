@@ -1,0 +1,372 @@
+{
+  "gear": [
+    {
+      "id": 1,
+      "javelin": 1,
+      "slot": 1,
+      "name": "Frag Grenade",
+      "type": "detonator",
+      "element": "blast"
+    },
+    {
+      "id": 2,
+      "javelin": 1,
+      "slot": 1,
+      "name": "Inferno Grenade",
+      "type": "primer",
+      "element": "fire"
+    },
+    {
+      "id": 3,
+      "javelin": 1,
+      "slot": 1,
+      "name": "Frost Grenade",
+      "type": "primer",
+      "element": "ice"
+    },
+    {
+      "id": 4,
+      "javelin": 1,
+      "slot": 1,
+      "name": "Seeker Grenades",
+      "type": "none",
+      "element": "blast"
+    },
+    {
+      "id": 5,
+      "javelin": 1,
+      "slot": 1,
+      "name": "Sticky Grenade",
+      "type": "detonator",
+      "element": "blast"
+    },
+    {
+      "id": 6,
+      "javelin": 1,
+      "slot": 2,
+      "name": "Seeking Missile",
+      "type": "detonator",
+      "element": "impact"
+    },
+    {
+      "id": 7,
+      "javelin": 1,
+      "slot": 2,
+      "name": "Pulse Blast",
+      "type": "detonator",
+      "element": "impactt"
+    },
+    {
+      "id": 8,
+      "javelin": 1,
+      "slot": 2,
+      "name": "Spark Beam",
+      "type": "none",
+      "element": "fire"
+    },
+    {
+      "id": 9,
+      "javelin": 1,
+      "slot": 2,
+      "name": "Venom Darts",
+      "type": "primer",
+      "element": "acid"
+    },
+    {
+      "id": 10,
+      "javelin": 1,
+      "slot": 2,
+      "name": "Blast Missile",
+      "type": "none",
+      "element": "blast"
+    },
+    {
+      "id": 11,
+      "javelin": 1,
+      "slot": 3,
+      "name": "Bulwark Point"
+    },
+    {
+      "id": 12,
+      "javelin": 1,
+      "slot": 3,
+      "name": "Muster Point"
+    },
+    {
+      "id": 13,
+      "javelin": 2,
+      "slot": 1,
+      "name": "High Explosive Mortar",
+      "type": "detonator",
+      "element": "blast"
+    },
+    {
+      "id": 14,
+      "javelin": 2,
+      "slot": 1,
+      "name": "Burst Mortar",
+      "type": "none",
+      "element": "blast"
+    },
+    {
+      "id": 15,
+      "javelin": 2,
+      "slot": 1,
+      "name": "Firewall Mortar",
+      "type": "primer",
+      "element": "fire"
+    },
+    {
+      "id": 16,
+      "javelin": 2,
+      "slot": 1,
+      "name": "Lightning Coil",
+      "type": "detonator",
+      "element": "electric"
+    },
+    {
+      "id": 17,
+      "javelin": 2,
+      "slot": 1,
+      "name": "Shock Coil",
+      "type": "primer",
+      "element": "electric"
+    },
+    {
+      "id": 18,
+      "javelin": 2,
+      "slot": 2,
+      "name": "Siege Artillery",
+      "type": "detonator",
+      "element": "blast"
+    },
+    {
+      "id": 19,
+      "javelin": 2,
+      "slot": 2,
+      "name": "Flamethrower",
+      "type": "primer",
+      "element": "fire"
+    },
+    {
+      "id": 20,
+      "javelin": 2,
+      "slot": 2,
+      "name": "Flak Cannon",
+      "type": "none",
+      "element": "impact"
+    },
+    {
+      "id": 21,
+      "javelin": 2,
+      "slot": 2,
+      "name": "Railgun",
+      "type": "detonator",
+      "element": "impact"
+    },
+    {
+      "id": 22,
+      "javelin": 2,
+      "slot": 2,
+      "name": "Venom Spitter",
+      "type": "primer",
+      "element": "acid"
+    },
+    {
+      "id": 23,
+      "javelin": 2,
+      "slot": 3,
+      "name": "Battle Cry"
+    },
+    {
+      "id": 24,
+      "javelin": 2,
+      "slot": 3,
+      "name": "Shield Pulse"
+    },
+    {
+      "id": 25,
+      "javelin": 3,
+      "slot": 1,
+      "name": "Lightning Strike",
+      "type": "detonator",
+      "element": "electric"
+    },
+    {
+      "id": 26,
+      "javelin": 3,
+      "slot": 1,
+      "name": "Ice Storm",
+      "type": "primer",
+      "element": "ice"
+    },
+    {
+      "id": 27,
+      "javelin": 3,
+      "slot": 1,
+      "name": "Flame Burst",
+      "type": "none",
+      "element": "fire"
+    },
+    {
+      "id": 28,
+      "javelin": 3,
+      "slot": 1,
+      "name": "Ice Blast",
+      "type": "primer",
+      "element": "ice"
+    },
+    {
+      "id": 29,
+      "javelin": 3,
+      "slot": 1,
+      "name": "Living Flame",
+      "type": "primer",
+      "element": "fire"
+    },
+    {
+      "id": 30,
+      "javelin": 3,
+      "slot": 2,
+      "name": "Frost Shards",
+      "type": "primer",
+      "element": "ice"
+    },
+    {
+      "id": 31,
+      "javelin": 3,
+      "slot": 2,
+      "name": "Burning Orb",
+      "type": "detonator",
+      "element": "fire"
+    },
+    {
+      "id": 32,
+      "javelin": 3,
+      "slot": 2,
+      "name": "Shock Burst",
+      "type": "primer",
+      "element": "electric"
+    },
+    {
+      "id": 33,
+      "javelin": 3,
+      "slot": 2,
+      "name": "Glacial Spear",
+      "type": "detonator",
+      "element": "ice"
+    },
+    {
+      "id": 34,
+      "javelin": 3,
+      "slot": 2,
+      "name": "Arc Burst",
+      "type": "none",
+      "element": "electric"
+    },
+    {
+      "id": 35,
+      "javelin": 3,
+      "slot": 3,
+      "name": "Wind Wall"
+    },
+    {
+      "id": 36,
+      "javelin": 3,
+      "slot": 3,
+      "name": "Quickening Field"
+    },
+    {
+      "id": 37,
+      "javelin": 4,
+      "slot": 1,
+      "name": "Searching Glaive",
+      "type": "none",
+      "element": "impact"
+    },
+    {
+      "id": 38,
+      "javelin": 4,
+      "slot": 1,
+      "name": "Venom Bomb",
+      "type": "primer",
+      "element": "acid"
+    },
+    {
+      "id": 39,
+      "javelin": 4,
+      "slot": 1,
+      "name": "Cryo Glaive",
+      "type": "primer",
+      "element": "ice"
+    },
+    {
+      "id": 40,
+      "javelin": 4,
+      "slot": 1,
+      "name": "Cluster Mine",
+      "type": "none",
+      "element": "blast"
+    },
+    {
+      "id": 41,
+      "javelin": 4,
+      "slot": 1,
+      "name": "Spark Dash",
+      "type": "detonator",
+      "element": "electric"
+    },
+    {
+      "id": 42,
+      "javelin": 4,
+      "slot": 2,
+      "name": "Detonating Strike",
+      "type": "primer",
+      "element": "electric"
+    },
+    {
+      "id": 43,
+      "javelin": 4,
+      "slot": 2,
+      "name": "Plasma Star",
+      "type": "none",
+      "element": "impact"
+    },
+    {
+      "id": 44,
+      "javelin": 4,
+      "slot": 2,
+      "name": "Wraith Strike",
+      "type": "none",
+      "element": "impact"
+    },
+    {
+      "id": 45,
+      "javelin": 4,
+      "slot": 2,
+      "name": "Tempest Strike",
+      "type": "detonator",
+      "element": "impact"
+    },
+    {
+      "id": 46,
+      "javelin": 4,
+      "slot": 2,
+      "name": "Venom Spray",
+      "type": "primer",
+      "element": "acid"
+    },
+    {
+      "id": 47,
+      "javelin": 4,
+      "slot": 3,
+      "name": "Target Beacon"
+    },
+    {
+      "id": 48,
+      "javelin": 4,
+      "slot": 3,
+      "name": "Rally Cry"
+    }
+  ]
+}

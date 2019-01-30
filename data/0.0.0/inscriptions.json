@@ -1,0 +1,14 @@
+{
+  "inscriptions": [
+    {
+      "id": 1,
+      "name": "Health Test Inscription",
+      "description": "Increase Health Pickup by 5%"
+    },
+    {
+      "id": 2,
+      "name": "Ammo Test Inscription",
+      "description": "Increase Ammo by 5%"
+    }
+  ]
+}

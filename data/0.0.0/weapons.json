@@ -1,0 +1,129 @@
+{
+  "weapons": [
+    {
+      "id": 1,
+      "type": "Marksman Rifle",
+      "name": "Death From Above"
+    },
+    {
+      "id": 2,
+      "type": "Marksman Rifle",
+      "name": "Guardian"
+    },
+    {
+      "id": 3,
+      "type": "Marksman Rifle",
+      "name": "Scout"
+    },
+    {
+      "id": 4,
+      "type": "Assault Rifle",
+      "name": "Defender"
+    },
+    {
+      "id": 5,
+      "type": "Assault Rifle",
+      "name": "Hammerhead"
+    },
+    {
+      "id": 6,
+      "type": "Assault Rifle",
+      "name": "Ralner's Blaze"
+    },
+    {
+      "id": 7,
+      "type": "Assault Rifle",
+      "name": "Warden"
+    },
+    {
+      "id": 8,
+      "type": "Heavy Pistol",
+      "name": "Barrage"
+    },
+    {
+      "id": 9,
+      "type": "Heavy Pistol",
+      "name": "Blastback"
+    },
+    {
+      "id": 10,
+      "type": "Heavy Pistol",
+      "name": "Resolution"
+    },
+    {
+      "id": 11,
+      "type": "Machine Pistol",
+      "name": "Fulcrum"
+    },
+    {
+      "id": 12,
+      "type": "Machine Pistol",
+      "name": "Hailstorm"
+    },
+    {
+      "id": 13,
+      "type": "Machine Pistol",
+      "name": "Trajector"
+    },
+    {
+      "id": 14,
+      "type": "Light Machine Gun",
+      "name": "Savage"
+    },
+    {
+      "id": 15,
+      "type": "Light Machine Gun",
+      "name": "Relentless"
+    },
+    {
+      "id": 16,
+      "type": "Sniper",
+      "name": "Deadeye"
+    },
+    {
+      "id": 17,
+      "type": "Sniper",
+      "name": "Devastator"
+    },
+    {
+      "id": 18,
+      "type": "Sniper",
+      "name": "Wyvern Blitz"
+    },
+    {
+      "id": 19,
+      "type": "Sniper",
+      "name": "Whirlwind"
+    },
+    {
+      "id": 20,
+      "type": "Shotgun",
+      "name": "Scattershot"
+    },
+    {
+      "id": 21,
+      "type": "Shotgun",
+      "name": "Vengance"
+    },
+    {
+      "id": 22,
+      "type": "Shotgun",
+      "name": "Constrictor"
+    },
+    {
+      "id": 23,
+      "type": "Autocannon",
+      "name": "Mauler"
+    },
+    {
+      "id": 24,
+      "type": "Autocannon",
+      "name": "Cloudburst"
+    },
+    {
+      "id": 25,
+      "type": "Grenade Launcher",
+      "name": "Lurker"
+    }
+  ]
+}

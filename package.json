@@ -1,0 +1,36 @@
+{
+  "name": "anthem-builds",
+  "version": "1.0.0",
+  "description": "A website to share Anthem Javelin builds",
+  "repository": "ianmitchell/anthem-builds",
+  "author": {
+    "name": "Ian Mitchell",
+    "email": "ian.mitchel1@live.com",
+    "url": "http://ianmitchell.io"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "evergreen-ui": "^4.11.2",
+    "next": "^7.0.2",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.1"
+  }
+}

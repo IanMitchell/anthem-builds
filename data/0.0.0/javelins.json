@@ -1,0 +1,64 @@
+{
+  "javelins": [
+    {
+      "id": 1,
+      "name": "Ranger",
+      "slotOne": "Grenade Gear",
+      "slotTwo": "Assault Launcher Gear",
+      "support": "Support Gear",
+      "weaponTypes": [
+        "Heavy Pistol",
+        "Machine Pistol",
+        "Marksman Rifle",
+        "Assault Rifle",
+        "Shotgun",
+        "Sniper"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Colossus",
+      "slotOne": "Ordnance Launcher",
+      "slotTwo": "Heavy Assault Launcher",
+      "support": "Support Gear",
+      "weaponTypes": [
+        "Marksman Rifle",
+        "Assault Rifle",
+        "Shotgun",
+        "Sniper",
+        "Autocannon",
+        "Grenade Launcher"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Storm",
+      "slotOne": "Blast Seal",
+      "slotTwo": "Focus Seal",
+      "support": "Support Seal",
+      "weaponTypes": [
+        "Heavy Pistol",
+        "Machine Pistol",
+        "Marksman Rifle",
+        "Assault Rifle",
+        "Shotgun",
+        "Sniper"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Interceptor",
+      "slotOne": "Assault System",
+      "slotTwo": "Strike System",
+      "support": "Support System",
+      "weaponTypes": [
+        "Heavy Pistol",
+        "Machine Pistol",
+        "Marksman Rifle",
+        "Assault Rifle",
+        "Shotgun",
+        "Sniper"
+      ]
+    }
+  ]
+}

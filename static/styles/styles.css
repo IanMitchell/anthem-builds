@@ -1,0 +1,70 @@
+.banner {
+  width: 100%;
+  background-image: url('/static/banner-mobile.png');
+  background-size: cover;
+}
+
+@media (min-width: 376px) {
+  .banner {
+    background-image: url('/static/banner-desktop.png');
+  }
+}
+
+.banner header {
+  margin: auto;
+  max-width: 980px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner header h1 a,
+.banner header h1 a:hover,
+.banner header h1 a:focus,
+.banner header h1 a:active,
+.banner header h1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.banner header nav {
+}
+
+.banner header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner header nav ul li {
+  padding: 0px 10px;
+}
+
+.banner header nav ul li a {
+  padding: 15px 15px 5px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.banner header nav ul li a:focus,
+.banner header nav ul li a:hover,
+.banner header nav ul li a:active {
+  border-bottom: 2px solid white;
+}
+
+.highlight img {
+  border: 5px solid #161616;
+}
+
+.highlight_1 div:nth-child(1) img,
+.highlight_2 div:nth-child(2) img,
+.highlight_3 div:nth-child(3) img,
+.highlight_4 div:nth-child(4) img {
+  border: 5px solid #ef4e22;
+}
+
+.javelin {
+  width: 200px;
+  height: 200px;
+}
