@@ -68,3 +68,43 @@
   width: 200px;
   height: 200px;
 }
+
+[data-element]:before {
+  margin-right: 8px;
+}
+
+[data-element='acid']:before {
+  content: url('/static/icons/acid.png');
+}
+
+[data-element='electric']:before {
+  content: url('/static/icons/electric.png');
+}
+
+[data-element='fire']:before {
+  content: url('/static/icons/fire.png');
+}
+
+[data-element='ice']:before {
+  content: url('/static/icons/ice.png');
+}
+
+[data-element='impact']:before {
+  content: url('/static/icons/impact.png');
+}
+
+[data-element='blast']:before {
+  content: url('/static/icons/blast.png');
+}
+
+[data-type]:before {
+  margin-right: 8px;
+}
+
+[data-type='primer']:before {
+  content: url('/static/icons/primer.png');
+}
+
+[data-type='detonator']:before {
+  content: url('/static/icons/detonator.png');
+}

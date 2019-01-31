@@ -23,26 +23,5 @@ export default () => (
       implemented. If you enjoy the tool and would like to see development
       continue, please reach out!
     </Paragraph>
-    <UnorderedList marginTop={24} width="100%" icon={null}>
-      <ListItem display="flex" alignItems="center">
-        <Twitter width={16} height={16} />
-        <Link paddingLeft={8} href="https://twitter.com/ianmitchel1">
-          @IanMitchel1
-        </Link>
-      </ListItem>
-      <ListItem display="flex" alignItems="center">
-        <Discord width={16} height={16} />
-        <Text paddingLeft={8}>Desch#3091</Text>
-      </ListItem>
-      <ListItem display="flex" alignItems="center">
-        <GitHub width={16} height={16} />{' '}
-        <Link
-          paddingLeft={8}
-          href="https://github.com/ianmitchell/anthem-builds"
-        >
-          ianmitchell/anthem-builds
-        </Link>
-      </ListItem>
-    </UnorderedList>
   </Page>
 );

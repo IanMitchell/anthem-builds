@@ -1,6 +1,6 @@
 import React from 'react';
 import Router from 'next/router';
-import { Heading, Button, Pane, SelectField } from 'evergreen-ui';
+import { Heading, Button, Pane, SelectField, Spinner } from 'evergreen-ui';
 import Page from '../layouts/Page';
 import { serialize } from '../lib/url';
 import { filterWeaponsByJavelin } from '../lib/filters';
@@ -112,7 +112,6 @@ export default class extends React.Component {
   render() {
     const {
       loading,
-      url,
       javelinList,
       javelin,
       weaponList,
@@ -125,7 +124,18 @@ export default class extends React.Component {
     } = this.state;
 
     if (loading) {
-      return <p>Loading...</p>;
+      return (
+        <Page>
+          <Pane
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            height={400}
+          >
+            <Spinner delay={300} />
+          </Pane>
+        </Page>
+      );
     }
 
     return (

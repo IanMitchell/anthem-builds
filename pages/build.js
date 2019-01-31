@@ -1,12 +1,22 @@
-/* global window */
+/* global window, navigator */
 import React from 'react';
-import { Pane, Heading, Text } from 'evergreen-ui';
+import {
+  Pane,
+  Heading,
+  Text,
+  Spinner,
+  Paragraph,
+  Code,
+  Button,
+  Badge,
+} from 'evergreen-ui';
 import Page from '../layouts/Page';
 import { parse } from '../lib/url';
 
 export default class extends React.Component {
   state = {
     loading: true,
+    copy: false,
     error: null,
     javelin: null,
     weaponOne: null,
@@ -43,6 +53,16 @@ export default class extends React.Component {
     }
   }
 
+  copyText = async () => {
+    console.log('copying text');
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      this.setState({ copy: true });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   async loadData(version) {
     const javelinImport = import(`../data/${version}/javelins.json`);
     const gearImport = import(`../data/${version}/gear.json`);
@@ -62,7 +82,19 @@ export default class extends React.Component {
 
   render() {
     if (this.state.loading) {
-      return <Page>Loading...</Page>;
+      return (
+        <Page>
+          {' '}
+          <Pane
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            height={400}
+          >
+            <Spinner delay={300} />
+          </Pane>
+        </Page>
+      );
     }
 
     if (this.state.error) {
@@ -74,9 +106,21 @@ export default class extends React.Component {
         <Heading size={900} width="auto" marginTop={48} marginBottom={8}>
           {this.state.javelin.name} Build
         </Heading>
-        <Text marginBottom={36} width="auto">
+        <Text marginBottom={16} width="auto" size={300}>
           Version {this.state.version}
         </Text>
+
+        <Pane marginBottom={36}>
+          <Heading>
+            {this.state.copy ? (
+              <Badge color="green">Copied to Clipboard</Badge>
+            ) : (
+              <Button iconBefore="clipboard" onClick={this.copyText}>
+                Share Build
+              </Button>
+            )}
+          </Heading>
+        </Pane>
 
         <Pane
           width="100%"
@@ -95,6 +139,33 @@ export default class extends React.Component {
           </Pane>
 
           <Pane>
+            <Text size={500}>{this.state.javelin.slotOne}</Text>
+            <Heading
+              size={700}
+              marginTop={8}
+              marginBottom={24}
+              data-type={this.state.gearOne.type}
+            >
+              {this.state.gearOne.name}
+            </Heading>
+
+            <Text size={500}>{this.state.javelin.slotTwo}</Text>
+            <Heading
+              size={700}
+              marginTop={8}
+              marginBottom={24}
+              data-type={this.state.gearTwo.type}
+            >
+              {this.state.gearTwo.name}
+            </Heading>
+
+            <Text size={500}>{this.state.javelin.support}</Text>
+            <Heading size={700} marginTop={8} marginBottom={24}>
+              {this.state.support.name}
+            </Heading>
+          </Pane>
+
+          <Pane>
             <Text size={500}>Primary Weapon</Text>
             <Heading size={700} marginTop={8} marginBottom={24}>
               {this.state.weaponOne.name}
@@ -103,21 +174,6 @@ export default class extends React.Component {
             <Text size={500}>Secondary Weapon</Text>
             <Heading size={700} marginTop={8} marginBottom={24} graph>
               {this.state.weaponTwo.name}
-            </Heading>
-
-            <Text size={500}>{this.state.javelin.slotOne}</Text>
-            <Heading size={700} marginTop={8} marginBottom={24}>
-              {this.state.gearOne.name}
-            </Heading>
-
-            <Text size={500}>{this.state.javelin.slotTwo}</Text>
-            <Heading size={700} marginTop={8} marginBottom={24}>
-              {this.state.gearTwo.name}
-            </Heading>
-
-            <Text size={500}>{this.state.javelin.support}</Text>
-            <Heading size={700} marginTop={8} marginBottom={24}>
-              {this.state.support.name}
             </Heading>
           </Pane>
         </Pane>
